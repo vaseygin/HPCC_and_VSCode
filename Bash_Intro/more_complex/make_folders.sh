@@ -18,6 +18,7 @@ for((i=0;i<=5;++i)) do
     # loop until that random number
     for((j=0;j<=$num_files;++j)) do
         touch "file_$j.txt"
+        mkdir -p "folder_$j"
     done
     # move back up a directory
     cd ..
