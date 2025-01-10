@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # this bash script shows how to create a random folder
-# structure to use with the "more_complex.sh" script
+# structure to use with the "process_files.sh" script
 
 # loop over integers 0 through 9
 for((i=0;i<=5;++i)) do
