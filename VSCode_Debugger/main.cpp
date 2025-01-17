@@ -6,10 +6,8 @@ using namespace std;
 int main() {
     cout << "Is there some debugging to do?" << endl;
 
-    double x = 5.3;
-    int y = 5;
-
     double x;
+    int y = 5;
 
     double z = x + y;
 
