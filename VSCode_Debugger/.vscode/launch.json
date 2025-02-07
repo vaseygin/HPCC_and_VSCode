@@ -1,0 +1,36 @@
+{
+    "name": "C++ Launch",
+    "type": "cppvsdbg",
+    "request": "launch",
+    "externalConsole": true,
+    "logging": {
+      "moduleLoad": true,
+      "trace": false
+    },
+    "configurations": [
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/executible",
+            "args": ["-i", "${workspaceFolder}/input.txt"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "conf and make",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+  }
