@@ -17,9 +17,14 @@ for((i=0;i<=5;++i)) do
     num_files=$((1 + $RANDOM % 5))
     # loop until that random number
     for((j=0;j<=$num_files;++j)) do
+        # make a file
         touch "file_$j.txt"
         echo "This is the content of file folder_$i/file_$j.txt" >> "file_$j.txt"
+        # make a folder
         mkdir -p "folder_$j"
+        # make a different file
+        touch "another_$j.txt"
+        echo "This is the content of file folder_$i/another_$j.txt" >> "another_$j.txt"
     done
     # move back up a directory
     cd ..
