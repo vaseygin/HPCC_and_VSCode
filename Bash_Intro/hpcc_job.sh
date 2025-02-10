@@ -17,4 +17,4 @@ echo "Create the file structure..."
 ./process_files.sh
 
 # extra command to wait for 2 minutes so we can practice terminal commands for managing this job
-sleep 2m
+#sleep 2m
