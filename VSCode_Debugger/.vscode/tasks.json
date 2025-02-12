@@ -12,7 +12,7 @@
                 "-g",
                 "main.cpp",
                 "-o",
-                "executible"
+                "executable"
             ],
         }
     ],
