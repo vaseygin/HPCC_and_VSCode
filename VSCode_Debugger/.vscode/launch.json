@@ -12,7 +12,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/executible",
+            "program": "${workspaceFolder}/executable",
             "args": ["-i", "${workspaceFolder}/input.txt"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
