@@ -1,6 +1,6 @@
 #!/bin/bash --login
 
-#SBATCH --time=00:03:00              # 6 minutes run time
+#SBATCH --time=00:03:00              # 3 minutes run time
 #SBATCH --nodes=1                    # 1 node
 #SBATCH --ntasks-per-node=1          # 1 task (thing to run) per node
 #SBATCH --cpus-per-task=1            # 1 cpu per task
